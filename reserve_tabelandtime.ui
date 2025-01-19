@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>reserve_tabelandtime</class>
+ <widget class="QWidget" name="reserve_tabelandtime">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>816</width>
+    <height>712</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>821</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>8:00-10:00</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>441</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>桌号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>预订情况</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>430</y>
+       <width>171</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>预定</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="show_reserve">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>110</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>250</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>150</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;输入要预定的桌号&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="err">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>350</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>10:00-12:00</string>
+    </attribute>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>100</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;输入要预定的桌号&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="err_4">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>300</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>441</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>桌号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>预订情况</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>200</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>360</y>
+       <width>171</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>预定</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>12:00-14:00</string>
+    </attribute>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>100</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;输入要预定的桌号&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="err_3">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>300</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>40</y>
+       <width>441</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>桌号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>预订情况</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>200</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>350</y>
+       <width>171</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>预定</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>14:00-16:00</string>
+    </attribute>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>100</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;输入要预定的桌号&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="err_2">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>300</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>441</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>桌号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>预订情况</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>200</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>390</y>
+       <width>171</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>预定</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

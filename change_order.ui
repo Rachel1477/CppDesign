@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>change_order</class>
+ <widget class="QWidget" name="change_order">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1161</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>1071</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>490</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>480</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>10</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>一键刷新</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
